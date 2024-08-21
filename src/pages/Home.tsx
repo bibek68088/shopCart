@@ -2,6 +2,7 @@ import { Button } from 'antd';
 import bgImage from '../assets/cat.jpg';
 import { BsArrowUpRight } from "react-icons/bs";
 import Pages from '../components/Pages';
+import Shop from '../components/Shop';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
       </section>
       <Pages />
+      <Shop/>
     </div>
   );
 };
