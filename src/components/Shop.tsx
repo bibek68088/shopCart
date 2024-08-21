@@ -1,6 +1,10 @@
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div>
+      <section>
+        <div>Feature Collection</div>
+      </section>
+    </div>
   )
 }
 

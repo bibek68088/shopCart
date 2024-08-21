@@ -1,6 +1,7 @@
 import { Button } from 'antd';
 import bgImage from '../assets/cat.jpg';
 import { BsArrowUpRight } from "react-icons/bs";
+import Pages from '../components/Pages';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           <Button className='p-6 bg-black text-white w-36'>Learn More<BsArrowUpRight/></Button>
         </div>
       </section>
+      <Pages />
     </div>
   );
 };
